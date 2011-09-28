@@ -78,5 +78,5 @@ print '2. Start developing in \'homepage\' app (or delete this app entirely if n
 
 """
 TODO
-- Ask if user want to enable Django Admin
+- Log settings
 """
