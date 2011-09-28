@@ -72,11 +72,10 @@ urls_file = open(os.path.join(project_dir, 'urls.py'), 'w')
 urls_file.write(urls_file_content)
 urls_file.close()
 
-print '########## What\'sNext ##########'
-print '1. Config database information in settings.py and dev_settings.py file '
-print '2. Start developing in \'homepage\' app (or delete this app entirely if not need)'
+print '** Don\'t forget to config database information in settings.py and dev_settings.py'
 
 """
 TODO
 - Log settings
+- Uni-form http://sprawsm.com/uni-form/
 """

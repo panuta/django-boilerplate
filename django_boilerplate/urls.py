@@ -12,3 +12,4 @@ urlpatterns = patterns('',
 # Reference
 # http://docs.python.org/library/re.html
 # https://docs.djangoproject.com/en/1.3/topics/http/urls/
+# https://docs.djangoproject.com/en/1.3/ref/class-based-views/
