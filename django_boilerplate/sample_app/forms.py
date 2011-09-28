@@ -10,6 +10,7 @@ from django import forms
 # https://docs.djangoproject.com/en/1.3/ref/forms/fields/
 
 """
+@autostrip
 class SampleForm(forms.Form):
     booleanfield = forms.BooleanField()
     charfield = forms.CharField()
