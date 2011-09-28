@@ -5,13 +5,15 @@ from django.conf.urls.defaults import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'django_boilerplate.views.home', name='home'),
-    # url(r'^django_boilerplate/', include('django_boilerplate.foo.urls')),
-
+	url(r'^', include('django_boilerplate.sample_app.urls')),
+    
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
 )
+
+# Reference
+# http://docs.python.org/library/re.html
+# https://docs.djangoproject.com/en/1.3/topics/http/urls/
